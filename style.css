@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .cv-container {
@@ -16,6 +15,7 @@ body {
   padding: 20px 30px;
   max-width: 60%;
   text-align: center;
+  margin: 20px;
 }
 
 .cv-container h1 {
@@ -52,8 +52,8 @@ li {
   color: #333333;
   margin-bottom: 20px;
   border-bottom: 2px solid #4caf50;
-  padding-bottom: 10px;
-  width: 200px;
+  padding: 10px 20px;
+  width: fit-content;
 }
 .cv-container .objective {
   text-align: center;
