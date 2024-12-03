@@ -17,3 +17,29 @@ body {
   max-width: 60%;
   text-align: center;
 }
+
+.cv-container h1 {
+  color: #333333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 10px;
+}
+
+.cv-container p {
+  margin: 10px;
+  color: #555555;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.cv-container a {
+  margin: 10px;
+
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cv-container a:hover {
+  color: #678e68;
+}
